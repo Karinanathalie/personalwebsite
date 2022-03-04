@@ -27,4 +27,6 @@ function topFunction() {
     alert ("Welcome!");
   }
 
-
+ function showAlert() {
+    alert ("Hi There! Please open this web using desktop size or larger device since I am still trying to make it more responsive. Thanks you so much!");
+  }
