@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+html{
+	scroll-behavior : smooth;
+}
+
+/* Name Typewriter Animation */
+.typewriter {
+    display: block;
+    width: max-content;
+    text-align: left;
+    align-items: center;
+    margin: auto;
+    padding-top: 60px;
+	padding-bottom: 0;
+}
+
+.typewriter h1{
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+	padding-bottom: 0;
+	padding-top: 10px;
+    white-space: nowrap;
+    font-size: 2.75em;
+    border-right: 0.8em solid;
+	padding-left: 145px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+    animation: typing 3s steps(11, end), blink 1s step-end infinite;
+}
+
+.typewriter h1 a {
+    text-decoration: none;
+	color: rgba(64, 32, 64, 0.75);
+	text-align:center;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: rgba(146, 55, 77, 0.5);
+    }
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Short Bio */
+.short-bio{
+	padding-top: 0;
+	color: #4A2040;
+    text-decoration: none;
+	text-align : center;
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+/* Title */
+#intro {
+	margin : 0 auto;
+	margin-bottom : 30px;
+	width : 75%;
+}
+
+#experiences {
+	margin : 0 auto;
+	margin-bottom : 30px;
+	width : 75%;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin : 0;
+   padding : 0;
+   height : 100%;
+   color: #151515;
+   background-color: #EFF2F1;
+}
+
+/* Navigation Bar */
+nav {
+	background-color: rgba(64, 32, 64, 0.75);
+	padding: 1px;
+	right: 0;
+	top:0;
+	position : fixed;
+	border : 4px double #1860A4;
+	border-radius : 10px;
+	text-align : center;
+}
+
+header {
+   display: inline;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color : white;
+}
+
+nav a:hover{
+	text-shadow : 1px 1px 3px #5049E7;
+	font-size : 1.15em;
+}
+
+nav a:after {    
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+nav a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+nav li {
+	text-align : center;
+	display : inline;
+	position: relative;
+	list-style-type : none;
+	margin-right : 30px;
+}
+
+*{
+	box-sizing : border-box;
+}
+
+main {
+	padding : 20px;
+	overflow : auto;
+}
+
+#content{
+	margin : 0 auto;
+}
+
+.card {
+	box-shadow : 4px 4px 8px 10px rgba(0,0,0,0.2);
+	border-radius : 10px;
+	padding : 30px;
+	margin-top : 20px;
+	overflow: auto;
+}
+
+.intro {
+	margin : 0 auto;
+	margin-bottom : 30px;
+	width : 75%;
+}
+ 
+h2{
+	text-shadow: 2px 2px 2px rgba(64, 32, 64, 0.75);
+	font-size : 2em;
+}
+
+
+.featured-image {
+	width : 25%;
+	max-height : 300px;
+	padding : 5px 20px 5px 5px;
+	float : left;
+}
+
+.featured-image2 {
+	width : 25%;
+	max-height : 300px;
+	padding : 20px;
+	padding-top: 10px;
+	padding-right: 0;
+	float : right;
+	margin: 0;
+}
+
+.featured-image3 {
+	width : 20%;
+	max-height : 300px;
+	padding : 5px 20px 5px 5px;
+	float : left;
+}
+
+.featured-image4 {
+	width : 30%;
+	max-height : 300px;
+	padding : 5px 20px 5px 0;
+	float : left;
+}
+
+.featured-image5 {
+	width : 40%;
+	max-height : 400px;
+	padding : 20px;
+	padding-right: 0;
+	padding-top: 10px;
+	float : right;
+	margin: 0;
+}
+
+.featured-image6 {
+	width : 20%;
+	max-height : 300px;
+	padding : 20px;
+	padding-right: 0;
+	padding-top: 10px;
+	float : right;
+	margin: 0;
+}
+
+.featured-image7 {
+	width : 29%;
+	max-height : 200px;
+	padding : 5px 20px 5px 0;
+	margin-bottom: 10px;
+	float : left;
+}
+
+		  
+.penjelasan {
+	font-size : 1.15em;
+	text-align: justify;
+	padding: 5px;
+}
+
+ /*Button*/
+.button {
+  border-radius: 10px;
+  background-color: rgba(64, 32, 64, 0.75);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 500px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+ /*ButtonCV*/
+.buttonCV {
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgba(64, 32, 64, 0.75);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  width: 250 px;
+  margin-left: 230px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  box-shadow: 0 9px #999
+}
+
+.buttonCV:hover {background-color: rgba(146, 55, 77, 0.5)}
+
+.buttonCV:active {
+  background-color: rgba(146, 55, 77, 0.5);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ /*Buttonmedia*/
+.buttonmedia {
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #4C47D9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  width: 250 px;
+  margin-left: 275px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.buttonmedia:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.buttonmedia:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.kata {
+	text-align : center;
+	font-family : 'Balsamiq Sans', cursive;
+	font-size : 1.5em;
+	color :#25579F;
+}
+
+section {
+	border-bottom : 4px dotted #1860A4;
+	width : 100%;
+}
+
+aside {
+	background : rgba(51,118,200,0.25);
+	margin : 0 auto;
+	width : 30%;
+}
+
+
+#buttonTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    background-color: rgba(64, 32, 64, 0.75);
+    color: white;
+	border : none;
+	outline : none;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 100px;
+}
+ 
+#buttonTop:hover {
+    background-color: rgba(146, 55, 77, 0.5);
+}
+
+
+footer {
+	font-size : 1.25em;
+	width : 100%;
+	margin-top : 20px;
+	padding: 20px;
+	color: white;
+	background-color: rgba(64, 32, 64, 0.75);
+	text-align: center;
+	font-weight: bold;
+	border-top-left-radius : 12em 3em;
+	border-bottom-right-radius : 3em;
+}
+
+@media screen and (max-width : 1000px){
+	nav {
+		height : 7ex;
+		padding: 0;
+		margin : 0;
+		top :0;
+		left: 0;
+		overflow : auto;
+		text-align : center;
+	}
+	nav a {
+		font-size: 0.8em;
+		text-align : justify;
+		padding-top : 0;
+		padding-right : 0;
+		padding-left : -20px;
+	}
+	nav li {
+		padding-top : 0;
+		text-align : left;
+		left : -25px;;
+	}
+	.card {
+		width : 100%;
+	}
+	.kata {
+		width : 100%;
+		font-size : 1.5em;
+		padding : 10px;
+	}
+	#content,
+	aside {
+		width : 100%;
+		padding : 0;
+		overflow : auto;
+	}
+}
+
+https://png.clipart.me/istock/previews/6200/62001366-toddler-cleaning-window.jpg
+
